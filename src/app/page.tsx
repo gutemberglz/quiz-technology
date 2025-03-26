@@ -1,6 +1,13 @@
+import { Metadata } from "next";
+
 import { technologies } from "@/data/technologies";
 
 import { TechnologyCard } from "../components/TechnologyCard";
+
+export const metadata: Metadata = {
+  title: "Quiz das Tecnologias",
+  description: "Teste suas habilidades em tecnologias atuais",
+};
 
 export default function Home() {
   return (
